@@ -21,3 +21,8 @@ STYLES
 3. Update \_layout.tsx in app
 4. Update tailwind.config.js
 5. Create 'image.d.ts' in the root and modify it
+
+Auth
+
+1. Run 'npx expo install react-native-appwrite react-native-url-polyfill' to install appwrite
+2. Create 'env.local' file with the credentials

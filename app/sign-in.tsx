@@ -11,15 +11,17 @@ import {
 
 import images from '@/constants/images';
 import icons from '@/constants/icons';
-// import {login} from '@/lib/appwrite';
+import {login} from '@/lib/appwrite';
+import { useGlobalContext } from "@/lib/global-provider";
 
 const SignIn = () => {
+  const { refetch, loading, isLogged} = useGlobalContext();
 
   const handleLogin = async () => {
     const result = await login();
 
     if (result) {
-        console.log('Login Success');
+      refetch();
     } else {
         Alert.alert('Error', 'Failed to login');
     }
