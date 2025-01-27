@@ -16,7 +16,7 @@ SETUP
 
 STYLES
 
-1. Add all the assets
+1. Add all the assets and constants
 2. Update app.json
 3. Update \_layout.tsx in app
 4. Update tailwind.config.js
