@@ -11,7 +11,7 @@ import {
 
 import images from '@/constants/images';
 import icons from '@/constants/icons';
-import {login} from '@/lib/appwrite';
+// import {login} from '@/lib/appwrite';
 
 const SignIn = () => {
 
